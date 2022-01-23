@@ -58,9 +58,9 @@
 - npx sequelize-cli seed:generate --name seeder-user
   - Untuk membuat file seeder-user
 - npx sequelize-cli seed:generate --name seeder-category
-  - Untuk membuat file seeder-user
+  - Untuk membuat file seeder-category
 - npx sequelize-cli seed:generate --name seeder-book
-  - Untuk membuat file seeder-user
+  - Untuk membuat file seeder-book
 - npx sequelize-cli db:seed:all
   - Untuk membuat data table secara migrasi
 - npx sequelize-cli db:seed:undo:all

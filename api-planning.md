@@ -2,7 +2,6 @@
   - METHOD : {root.api}/{version}/{grouping}/{endpoint}
   - POST : http://api.google.com/v1/auth/login
 
-==============================================================================================
 
 ### Standar Status Response
   - [1] - 200 - OK                        --> Call API Success.
@@ -13,5 +12,3 @@
   - [6] - 404 - NOT FOUND                 --> Request Endpoint Not Found.
   - [7] - 500 - INTERNAL SERVER ERROR     --> Error on Server Side.
   - [8] - 502 - BAD GATEWAY               --> Invalid Response From Another Request.
-
-==============================================================================================

@@ -1,5 +1,8 @@
 ## SERVER TOKO BUKU
 
+### Soal Test
+- [Sistem Penjualan Toko Buku](https://drive.google.com/file/d/1JhQz18Uu4FbVxS2T7fn6LaSiGJMnWXja/view?usp=sharing)
+
 ### Express
 - [Express Generator](https://expressjs.com/en/starter/generator.html)
 

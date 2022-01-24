@@ -1,5 +1,4 @@
 ## SERVER TOKO BUKU
-- (Latihan 18: 20. [Transactions] Detail Transactions)
 
 ### Express
 - [Express Generator](https://expressjs.com/en/starter/generator.html)
@@ -7,6 +6,7 @@
 ### Rancangan Data
 - [ERD](https://drive.google.com/file/d/1PnjYvxZks6F1pXzLYLUbeTvKXsR07Mgq/view?usp=sharing)
 - [API Planning](./api-planning.md)
+- [API Documentation](https://documenter.getpostman.com/view/10749611/UVXqFYic)
 
 ### Cara Installasi
 - npm install -g express-generator

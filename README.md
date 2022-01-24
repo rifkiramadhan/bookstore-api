@@ -29,6 +29,8 @@
   - Untuk menginstall dependencies jsonwebtoken, dan berfungsi untuk membuat token data keamanan pada akun tiap user
 - npm install multer
   - Untuk menginstall dependencies multer, dan berfungsi untuk mengupload image pada project express
+- npm install --save pg pg-hstore
+  - Untuk membuat database production pada website heroku
 
 ### Perintah Sequelize Membuat Database
 - npx sequelize-cli init

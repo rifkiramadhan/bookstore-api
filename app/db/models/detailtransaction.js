@@ -11,10 +11,13 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      DetailTransaction.belongsTo(models.Transaction, {
+        foreignKey: 'transaction',
+      });
     }
   }
   DetailTransaction.init({
-    transaction: DataTypes.STRING,
+    transaction: DataTypes.INTEGER,
     user: DataTypes.INTEGER,
     book: DataTypes.INTEGER,
     titleBook: DataTypes.STRING,

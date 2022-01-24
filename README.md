@@ -1,12 +1,12 @@
 ## SERVER TOKO BUKU
-- (Latihan 15: 17. [Books] Delete)
+- (Latihan 18: 20. [Transactions] Detail Transactions)
 
 ### Express
 - [Express Generator](https://expressjs.com/en/starter/generator.html)
 
 ### Rancangan Data
 - [ERD](https://drive.google.com/file/d/1PnjYvxZks6F1pXzLYLUbeTvKXsR07Mgq/view?usp=sharing)
-- [API Planning]('./api-planning.md)
+- [API Planning](./api-planning.md)
 
 ### Cara Installasi
 - npm install -g express-generator
@@ -42,12 +42,12 @@
 - npx sequelize-cli model:generate --name User --attributes name:string,email:string,password:string,role:enum
   - Untuk membuat table dengan nama Users beserta attributes nya dan automatice digenerate file user dan migrations
 - npx sequelize-cli model:generate --name Category --attributes name:string,user:integer
-  - Untuk membuat table dengan nama Categirys beserta attributes nya dan automatice digenerate file category dan migrations
+  - Untuk membuat table dengan nama Category beserta attributes nya dan automatice digenerate file category dan migrations
 - npx sequelize-cli model:generate --name Book --attributes title:string,user:integer,category:integer,author:string,image:text,published:date,price:integer,stock:integer
   - Untuk membuat table dengan nama Books beserta attributes nya dan automatice digenerate file book dan migrations
 - npx sequelize-cli model:generate --name Transaction --attributes invoice:string,user:integer,date:date
   - Untuk membuat table dengan nama Transactions beserta attributes nya dan automatice digenerate file transactions dan migrations
-- npx sequelize-cli model:generate --name DetailTransaction --attributes transaction:string,user:integer,book:integer,titleBook:string,imageBook:string,priceBook:integer,quantity:integer
+- npx sequelize-cli model:generate --name DetailTransaction --attributes transaction:integer,user:integer,book:integer,titleBook:string,imageBook:string,priceBook:integer,quantity:integer
   - Untuk membuat table dengan nama DetailTransactions beserta attributes nya dan automatice digenerate file transactions dan migrations
 - npx sequelize-cli db:migrate
   - Untuk membuat table automatice secara migrasi

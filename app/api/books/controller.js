@@ -4,7 +4,7 @@ const { Op } = require('sequelize');
 module.exports = {
     getAllBooks: async (req, res, next) => {
         try {
-            const { keyword = '' } = req.query;
+            const { keyword = '', category = '' } = req.query;
             let condition = {
                 user: req.user.id,
             };
@@ -15,6 +15,13 @@ module.exports = {
                     title: {
                         [Op.like]: `%${keyword}%`
                     },
+                };
+            };
+
+            if (category !== '') {
+                condition = {
+                    ...condition,
+                    category: category
                 };
             };
 
